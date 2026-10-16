@@ -2,3 +2,20 @@
   },
   "Wednesday": {
     "breakfast": ["Idli", "Sambar", "Coconut chutney"],
+    "lunch": ["Kadhi pakora", "Rice", "Roti", "Papad"],
+    "snacks": ["Maggi", "Tea"],
+    "dinner": ["Chicken curry", "Mix veg", "Roti", "Rice"]
+  },
+  "Thursday": {
+    "breakfast": ["Upma", "Banana", "Coffee"],
+    "lunch": ["Dal makhani", "Rice", "Roti", "Salad"],
+    "snacks": ["Pav bhaji"],
+    "dinner": ["Bhindi fry", "Dal fry", "Roti", "Rice"]
+  },
+  "Friday": {
+    "breakfast": ["Puri", "Aloo sabzi", "Tea"],
+    "lunch": ["Sambar", "Rice", "Cabbage poriyal", "Curd"],
+    "snacks": ["Vada pav", "Tea"],
+    "dinner": ["Fish curry", "Paneer butter masala", "Roti", "Rice"]
+  },
+  "Saturday": {
