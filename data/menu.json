@@ -21,3 +21,5 @@
     "dinner": ["Fish curry", "Paneer butter masala", "Roti", "Rice"]
   },
   "Saturday": {
+    "breakfast": ["Bread omelette", "Tea"],
+    "lunch": ["Veg biryani", "Raita"],
