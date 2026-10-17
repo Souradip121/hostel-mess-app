@@ -26,3 +26,8 @@
   "Saturday": {
     "breakfast": ["Bread omelette", "Tea"],
     "lunch": ["Veg biryani", "Raita"],
+    "snacks": ["Bhel puri"],
+    "dinner": ["Khichdi", "Papad", "Pickle"]
+  },
+  "Sunday": {
+    "breakfast": ["Chole bhature", "Lassi"],
