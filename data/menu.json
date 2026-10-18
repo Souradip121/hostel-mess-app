@@ -5,6 +5,10 @@
     "snacks": ["Samosa", "Tea"],
     "dinner": ["Aloo gobi", "Dal tadka", "Roti", "Rice"]
   },
+  "Tuesday": {
+    "breakfast": ["Aloo paratha", "Curd", "Tea"],
+    "lunch": ["Chole", "Rice", "Roti", "Pickle"],
+    "snacks": ["Bread pakora", "Tea"],
     "dinner": ["Egg curry", "Paneer bhurji", "Roti", "Rice"]
   },
   "Wednesday": {
@@ -33,3 +37,4 @@
   },
   "Sunday": {
     "breakfast": ["Chole bhature", "Lassi"],
+}
