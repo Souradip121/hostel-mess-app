@@ -37,4 +37,8 @@
   },
   "Sunday": {
     "breakfast": ["Chole bhature", "Lassi"],
+    "lunch": ["Chicken biryani", "Paneer biryani", "Raita"],
+    "snacks": ["Tea", "Biscuits"],
+    "dinner": ["Dal", "Aloo matar", "Roti", "Gulab jamun"]
+  }
 }
