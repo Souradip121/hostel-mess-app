@@ -3,6 +3,8 @@
     "breakfast": ["Poha", "Boiled egg", "Tea"],
     "lunch": ["Rajma", "Jeera rice", "Roti", "Salad"],
     "snacks": ["Samosa", "Tea"],
+    "dinner": ["Aloo gobi", "Dal tadka", "Roti", "Rice"]
+  },
     "dinner": ["Egg curry", "Paneer bhurji", "Roti", "Rice"]
   },
   "Wednesday": {
