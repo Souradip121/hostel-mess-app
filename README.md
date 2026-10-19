@@ -4,3 +4,13 @@
 
 A small web app for our hostel mess: today's menu, the whole week, star ratings for every meal and a complaints box.
 
+## How to run
+
+Open the folder with any static server, for example:
+
+```
+python -m http.server
+```
+
+Then open http://localhost:8000.
+
