@@ -5,3 +5,5 @@ const TIMES = {
   breakfast: '7:30 - 9:30 am',
   lunch: '12:30 - 2:30 pm',
   snacks: '5:00 - 6:00 pm',
+  dinner: '8:00 - 10:00 pm',
+};
