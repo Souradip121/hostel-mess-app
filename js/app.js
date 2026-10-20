@@ -7,3 +7,5 @@ const TIMES = {
   snacks: '5:00 - 6:00 pm',
   dinner: '8:00 - 10:00 pm',
 };
+
+let menu = null;
