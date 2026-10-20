@@ -9,3 +9,6 @@ const TIMES = {
 };
 
 let menu = null;
+let pickedDay = new Date().getDay();
+
+async function loadMenu() {
