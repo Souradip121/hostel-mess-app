@@ -5,3 +5,7 @@ const Ratings = (() => {
   function load() {
     try {
       return JSON.parse(localStorage.getItem(KEY)) || {};
+    } catch (e) {
+      return {};
+    }
+  }
