@@ -12,3 +12,6 @@ let menu = null;
 let pickedDay = new Date().getDay();
 
 async function loadMenu() {
+  const res = await fetch('data/menu.json');
+  if (!res.ok) throw new Error('menu not found');
+  return res.json();
