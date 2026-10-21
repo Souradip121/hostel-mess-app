@@ -15,3 +15,19 @@ async function loadMenu() {
   const res = await fetch('data/menu.json');
   if (!res.ok) throw new Error('menu not found');
   return res.json();
+}
+
+function title(word) {
+  return word.charAt(0).toUpperCase() + word.slice(1);
+}
+
+function mealCard(day, meal) {
+  const items = menu[DAYS[day]][meal] || [];
+  const card = document.createElement('article');
+  card.className = 'meal';
+  const key = `${DAYS[day]}-${meal}`;
+  card.innerHTML = `
+    <h3>${title(meal)}</h3>
+    <div class="time">${TIMES[meal]}</div>
+    <ul>${items.map((i) => `<li>${i}</li>`).join('')}</ul>
+  `;
