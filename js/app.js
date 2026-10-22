@@ -31,3 +31,10 @@ function mealCard(day, meal) {
     <div class="time">${TIMES[meal]}</div>
     <ul>${items.map((i) => `<li>${i}</li>`).join('')}</ul>
   `;
+  card.appendChild(Ratings.stars(key));
+  card.appendChild(Ratings.average(key));
+  return card;
+}
+
+function renderToday() {
+  const today = new Date().getDay();
