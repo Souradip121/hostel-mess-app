@@ -9,3 +9,11 @@ const Ratings = (() => {
       return {};
     }
   }
+
+  function save(all) {
+    localStorage.setItem(KEY, JSON.stringify(all));
+  }
+
+  function get(mealKey) {
+    return load()[mealKey] || [];
+  }
