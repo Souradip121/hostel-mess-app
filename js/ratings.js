@@ -17,3 +17,14 @@ const Ratings = (() => {
   function get(mealKey) {
     return load()[mealKey] || [];
   }
+
+  function add(mealKey, value) {
+    const all = load();
+    all[mealKey] = (all[mealKey] || []).concat(value);
+    save(all);
+  }
+
+  function stars(mealKey) {
+    const row = document.createElement('div');
+    row.className = 'stars';
+    const mine = get(mealKey).slice(-1)[0] || 0;
