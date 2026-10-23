@@ -28,3 +28,21 @@ const Ratings = (() => {
     const row = document.createElement('div');
     row.className = 'stars';
     const mine = get(mealKey).slice(-1)[0] || 0;
+    for (let i = 1; i <= 5; i++) {
+      const s = document.createElement('button');
+      s.className = 'star' + (i <= mine ? ' on' : '');
+      s.textContent = '★';
+      s.setAttribute('aria-label', `${i} star${i > 1 ? 's' : ''}`);
+      s.addEventListener('click', () => {
+        add(mealKey, i);
+        row.querySelectorAll('.star').forEach((x, j) => x.classList.toggle('on', j < i));
+        const avg = row.parentElement.querySelector('.avg');
+        if (avg) avg.replaceWith(average(mealKey));
+      });
+      row.appendChild(s);
+    }
+    return row;
+  }
+
+  function average(mealKey) {
+    const list = get(mealKey);
