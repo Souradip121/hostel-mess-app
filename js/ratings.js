@@ -46,3 +46,14 @@ const Ratings = (() => {
 
   function average(mealKey) {
     const list = get(mealKey);
+    const el = document.createElement('div');
+    el.className = 'avg';
+    if (!list.length) {
+      el.textContent = 'No ratings yet. Be the first.';
+      return el;
+    }
+    const avg = list.reduce((a, b) => a + b, 0) / list.length;
+    el.textContent = `${avg.toFixed(1)} from ${list.length} rating${list.length > 1 ? 's' : ''}`;
+    return el;
+  }
+
