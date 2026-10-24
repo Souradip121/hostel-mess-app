@@ -57,3 +57,5 @@ const Ratings = (() => {
     return el;
   }
 
+  return { stars, average };
+})();
