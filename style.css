@@ -25,6 +25,19 @@ body {
 .top h1 { margin: 0; font-size: 28px; }
 .top .sub { margin: 4px 0 16px; opacity: .9; }
 
+.tabs { display: flex; gap: 8px; }
+
+.tab {
+  flex: 1;
+  padding: 10px 0;
+  border: 0;
+  border-radius: 10px 10px 0 0;
+  background: rgba(255,255,255,.2);
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
 form { display: grid; gap: 12px; }
 
 label { display: grid; gap: 6px; font-weight: 600; }
