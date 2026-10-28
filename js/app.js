@@ -39,3 +39,6 @@ function mealCard(day, meal) {
 function renderToday() {
   const today = new Date().getDay();
   document.getElementById('today-title').textContent = `Today, ${DAYS[today]}`;
+  const box = document.getElementById('today-meals');
+  box.innerHTML = '';
+  MEALS.forEach((m) => box.appendChild(mealCard(today, m)));
