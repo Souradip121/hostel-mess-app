@@ -42,3 +42,14 @@ function renderToday() {
   const box = document.getElementById('today-meals');
   box.innerHTML = '';
   MEALS.forEach((m) => box.appendChild(mealCard(today, m)));
+}
+
+function renderDayPicker() {
+  const picker = document.getElementById('day-picker');
+  picker.innerHTML = '';
+  DAYS.forEach((d, i) => {
+    const b = document.createElement('button');
+    b.className = 'day' + (i === pickedDay ? ' active' : '');
+    b.textContent = d.slice(0, 3);
+    b.addEventListener('click', () => {
+      pickedDay = i;
