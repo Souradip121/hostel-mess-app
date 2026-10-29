@@ -21,3 +21,6 @@ const Complaints = (() => {
     if (!list.length) {
       ul.innerHTML = '<li>No complaints yet. Suspicious.</li>';
       return;
+    }
+    list.slice().reverse().forEach((c) => {
+      const li = document.createElement('li');
