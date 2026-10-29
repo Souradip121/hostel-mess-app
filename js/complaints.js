@@ -24,3 +24,11 @@ const Complaints = (() => {
     }
     list.slice().reverse().forEach((c) => {
       const li = document.createElement('li');
+      const when = new Date(c.at).toLocaleString();
+      li.innerHTML = `<div class="meta">${c.meal} · ${when}</div>`;
+      const p = document.createElement('p');
+      p.textContent = c.text;
+      li.appendChild(p);
+      ul.appendChild(li);
+    });
+  }
