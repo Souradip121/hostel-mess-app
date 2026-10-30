@@ -32,3 +32,13 @@ const Complaints = (() => {
       ul.appendChild(li);
     });
   }
+
+  function init() {
+    const form = document.getElementById('complaint-form');
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const text = document.getElementById('complaint-text').value.trim();
+      if (!text) return;
+      const meal = document.getElementById('complaint-meal').value;
+      const list = load();
+      list.push({ meal, text, at: Date.now() });
