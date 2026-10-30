@@ -53,3 +53,8 @@ function renderDayPicker() {
     b.textContent = d.slice(0, 3);
     b.addEventListener('click', () => {
       pickedDay = i;
+      renderWeek();
+    });
+    picker.appendChild(b);
+  });
+}
