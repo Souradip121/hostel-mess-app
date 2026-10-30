@@ -42,3 +42,11 @@ const Complaints = (() => {
       const meal = document.getElementById('complaint-meal').value;
       const list = load();
       list.push({ meal, text, at: Date.now() });
+      save(list);
+      form.reset();
+      render();
+    });
+  }
+
+  return { init, render };
+})();
