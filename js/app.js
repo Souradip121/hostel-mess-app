@@ -58,3 +58,8 @@ function renderDayPicker() {
     picker.appendChild(b);
   });
 }
+
+function renderWeek() {
+  renderDayPicker();
+  const box = document.getElementById('week-meals');
+  box.innerHTML = '';

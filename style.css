@@ -56,6 +56,7 @@ main { padding: 16px; max-width: 640px; margin: 0 auto; }
 .meal h3 { margin: 0 0 4px; font-size: 18px; }
 .meal .time { color: var(--muted); font-size: 13px; }
 .meal ul { margin: 8px 0; padding-left: 18px; }
+
 form { display: grid; gap: 12px; }
 
 label { display: grid; gap: 6px; font-weight: 600; }
