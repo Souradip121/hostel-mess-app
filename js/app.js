@@ -71,3 +71,4 @@ function showView(name) {
     v.classList.toggle('hidden', v.id !== name);
   });
   document.querySelectorAll('.tab').forEach((t) => {
+    t.classList.toggle('active', t.dataset.view === name);
