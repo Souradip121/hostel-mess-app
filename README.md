@@ -14,3 +14,9 @@ python -m http.server
 
 Then open http://localhost:8000.
 
+## Team 7
+
+- Riya: menu pages, layout
+- Arjun: ratings, complaints box, menu data
+- Soham: styling
+- Tisha: documentation
