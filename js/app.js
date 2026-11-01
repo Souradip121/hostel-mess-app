@@ -69,3 +69,5 @@ function renderWeek() {
 function showView(name) {
   document.querySelectorAll('.view').forEach((v) => {
     v.classList.toggle('hidden', v.id !== name);
+  });
+  document.querySelectorAll('.tab').forEach((t) => {
