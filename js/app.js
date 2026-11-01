@@ -66,3 +66,5 @@ function renderWeek() {
   MEALS.forEach((m) => box.appendChild(mealCard(pickedDay, m)));
 }
 
+function showView(name) {
+  document.querySelectorAll('.view').forEach((v) => {
