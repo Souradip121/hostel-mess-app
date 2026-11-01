@@ -64,3 +64,5 @@ function renderWeek() {
   const box = document.getElementById('week-meals');
   box.innerHTML = '';
   MEALS.forEach((m) => box.appendChild(mealCard(pickedDay, m)));
+}
+
