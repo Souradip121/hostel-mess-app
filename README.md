@@ -4,6 +4,9 @@
 
 A small web app for our hostel mess: today's menu, the whole week, star ratings for every meal and a complaints box.
 
+## Features
+
+- Today's menu with meal timings
 ## How to run
 
 Open the folder with any static server, for example:

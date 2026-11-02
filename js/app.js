@@ -74,3 +74,7 @@ function showView(name) {
     t.classList.toggle('active', t.dataset.view === name);
   });
   if (name === 'week') renderWeek();
+  if (name === 'complaints') Complaints.render();
+}
+
+document.querySelectorAll('.tab').forEach((t) => {
