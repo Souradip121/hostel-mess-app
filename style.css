@@ -79,3 +79,9 @@ form button {
 
 .complaint-list { list-style: none; padding: 0; display: grid; gap: 8px; }
 
+.complaint-list li {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 10px;
+}
