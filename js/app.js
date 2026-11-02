@@ -72,3 +72,5 @@ function showView(name) {
   });
   document.querySelectorAll('.tab').forEach((t) => {
     t.classList.toggle('active', t.dataset.view === name);
+  });
+  if (name === 'week') renderWeek();
