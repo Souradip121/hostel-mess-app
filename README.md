@@ -7,6 +7,10 @@ A small web app for our hostel mess: today's menu, the whole week, star ratings 
 ## Features
 
 - Today's menu with meal timings
+- The whole week, with a day picker
+- Rate every meal out of 5 (saved on your phone)
+- A complaints box (also saved on your phone)
+
 ## How to run
 
 Open the folder with any static server, for example:
