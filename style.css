@@ -77,3 +77,5 @@ form button {
   font-weight: 700;
 }
 
+.complaint-list { list-style: none; padding: 0; display: grid; gap: 8px; }
+
