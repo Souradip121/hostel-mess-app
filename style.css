@@ -63,6 +63,13 @@ main { padding: 16px; max-width: 640px; margin: 0 auto; }
   border: 0;
   background: none;
   font-size: 22px;
+  color: #d6c7b2;
+  cursor: pointer;
+  padding: 0;
+}
+
+.star.on { color: var(--accent); }
+
 .day-picker { display: flex; gap: 6px; overflow-x: auto; margin-bottom: 12px; }
 
 .day {
