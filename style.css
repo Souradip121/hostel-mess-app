@@ -62,6 +62,7 @@ main { padding: 16px; max-width: 640px; margin: 0 auto; }
 .star {
   border: 0;
   background: none;
+  font-size: 22px;
 .day-picker { display: flex; gap: 6px; overflow-x: auto; margin-bottom: 12px; }
 
 form { display: grid; gap: 12px; }
