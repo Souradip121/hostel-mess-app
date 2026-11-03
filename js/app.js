@@ -86,3 +86,7 @@ loadMenu()
     menu = data;
     renderToday();
   })
+  .catch(() => {
+    document.getElementById('today-meals').textContent =
+      'Could not load the menu. Ask the mess secretary.';
+  });
