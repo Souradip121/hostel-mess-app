@@ -90,3 +90,5 @@ loadMenu()
     document.getElementById('today-meals').textContent =
       'Could not load the menu. Ask the mess secretary.';
   });
+
+Complaints.init();
