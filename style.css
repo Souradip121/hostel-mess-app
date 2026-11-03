@@ -58,6 +58,8 @@ main { padding: 16px; max-width: 640px; margin: 0 auto; }
 .meal ul { margin: 8px 0; padding-left: 18px; }
 
 .stars { display: flex; gap: 4px; }
+
+.star {
 form { display: grid; gap: 12px; }
 
 label { display: grid; gap: 6px; font-weight: 600; }
