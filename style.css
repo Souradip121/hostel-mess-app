@@ -60,6 +60,8 @@ main { padding: 16px; max-width: 640px; margin: 0 auto; }
 .stars { display: flex; gap: 4px; }
 
 .star {
+  border: 0;
+  background: none;
 .day-picker { display: flex; gap: 6px; overflow-x: auto; margin-bottom: 12px; }
 form { display: grid; gap: 12px; }
 
