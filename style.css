@@ -114,3 +114,4 @@ form button {
 
 @media (min-width: 720px) {
   .meals { grid-template-columns: 1fr 1fr; }
+}
