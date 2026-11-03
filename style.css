@@ -70,6 +70,8 @@ main { padding: 16px; max-width: 640px; margin: 0 auto; }
 
 .star.on { color: var(--accent); }
 
+.avg { color: var(--muted); font-size: 13px; margin-top: 4px; }
+
 .day-picker { display: flex; gap: 6px; overflow-x: auto; margin-bottom: 12px; }
 
 .day {
