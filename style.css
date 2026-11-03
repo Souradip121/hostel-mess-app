@@ -111,3 +111,4 @@ form button {
 .foot .small { font-size: 12px; }
 
 @media (min-width: 720px) {
+  .meals { grid-template-columns: 1fr 1fr; }
