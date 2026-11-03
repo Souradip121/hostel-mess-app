@@ -89,3 +89,4 @@ form button {
 
 .complaint-list .meta { color: var(--muted); font-size: 12px; }
 
+.foot { text-align: center; color: var(--muted); padding: 24px 16px; }
