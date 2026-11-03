@@ -81,3 +81,5 @@ document.querySelectorAll('.tab').forEach((t) => {
   t.addEventListener('click', () => showView(t.dataset.view));
 });
 
+loadMenu()
+  .then((data) => {
