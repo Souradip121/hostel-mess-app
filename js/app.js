@@ -83,3 +83,6 @@ document.querySelectorAll('.tab').forEach((t) => {
 
 loadMenu()
   .then((data) => {
+    menu = data;
+    renderToday();
+  })
