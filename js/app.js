@@ -78,3 +78,6 @@ function showView(name) {
 }
 
 document.querySelectorAll('.tab').forEach((t) => {
+  t.addEventListener('click', () => showView(t.dataset.view));
+});
+
